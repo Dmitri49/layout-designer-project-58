@@ -39,19 +39,20 @@ ul li{list-style: none;}
 	src: url(../fonts/Neucha/Neucha-Regular.ttf);
 }
 
+:root {
+  --white: #fff;
+  --transparent-white: #d7ccc0;
+  --light: #f5f4f0;
+  --color-main: #fe8a02;
+  --dark-main: #42413c;
+  --dark: #2a2626;
+  --transparent-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
 
 
-/* Цвета
-Белый: #fff
-Полупрозрачный белый: #d7ccc0
-Светлый: #f5f4f0
-Основной: #fe8a02
-Основной тёмный: #42413c
-Тёмный: #2a2626
-Полупрозрачный тёмный: #908d8b
-Коричневый: #b09a81
-Синий: #1085c5
-
+/*
 Шрифты
 В качестве основного шрифта используется Open Sans
 Для заголовков используется шрифт Neucha
