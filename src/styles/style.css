@@ -1,7 +1,71 @@
-/** CSS STYLE **/
-
-.hello {
-  display: block;
-
-  color: #fff;
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
+
+*,*::before,*::after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a, a:visited{text-decoration: none;}
+
+a:hover{text-decoration: none;}
+
+ul li{list-style: none;}
+
+/* ====================================================================== */
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 400;
+
+	src: url(../fonts/Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 700;
+
+	src: url(../fonts/Open_Sans/static/OpenSans-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'Neucha';
+	font-weight: 400;
+
+	src: url(../fonts/Neucha/Neucha-Regular.ttf);
+}
+
+
+
+/* Цвета
+Белый: #fff
+Полупрозрачный белый: #d7ccc0
+Светлый: #f5f4f0
+Основной: #fe8a02
+Основной тёмный: #42413c
+Тёмный: #2a2626
+Полупрозрачный тёмный: #908d8b
+Коричневый: #b09a81
+Синий: #1085c5
+
+Шрифты
+В качестве основного шрифта используется Open Sans
+Для заголовков используется шрифт Neucha
+Размер шрифта: 16px
+Межстрочный интервал: 1.6em
+Цвет шрифта: #2A2626
+
+Заголовки
+Межстрочный интервал заголовков: 1.2em
+Размер заголовка первого уровня: 72px
+Размер заголовка второго уровня: 60px
+Размер заголовка третьего уровня: 34px
+
+Секции
+Ограничение по ширине контента: 1110px
+Выравнивание по центру
+Отступы по 100 пикселей сверху и снизу */
