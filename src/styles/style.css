@@ -1,3 +1,36 @@
+:root {
+  --white: #fff;
+  --transparent-white: #d7ccc0;
+  --light: #f5f4f0;
+  --color-main: #fe8a02;
+  --dark-main: #42413c;
+  --dark: #2a2626;
+  --transparent-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 400;
+
+	src: url(../fonts/Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Neucha';
+	font-weight: 400;
+
+	src: url(../fonts/Neucha/Neucha-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 700;
+
+	src: url(../fonts/Open_Sans/static/OpenSans-Bold.ttf);
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -16,55 +49,39 @@ a:hover{text-decoration: none;}
 
 ul li{list-style: none;}
 
-/* ====================================================================== */
+body {
+  min-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 
-@font-face {
-	font-family: 'Open Sans';
-	font-weight: 400;
-
-	src: url(../fonts/Open_Sans/static/OpenSans-Regular.ttf);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2A2626;
 }
 
-@font-face {
-	font-family: 'Open Sans';
-	font-weight: 700;
-
-	src: url(../fonts/Open_Sans/static/OpenSans-Bold.ttf);
+h1,
+h2,
+h3 {
+  font-family: 'Neucha', sans-serif;
+  line-height: 1.2em;
 }
 
-@font-face {
-	font-family: 'Neucha';
-	font-weight: 400;
-
-	src: url(../fonts/Neucha/Neucha-Regular.ttf);
+h1 {
+  font-size: 72px;
 }
 
-:root {
-  --white: #fff;
-  --transparent-white: #d7ccc0;
-  --light: #f5f4f0;
-  --color-main: #fe8a02;
-  --dark-main: #42413c;
-  --dark: #2a2626;
-  --transparent-dark: #908d8b;
-  --brown: #b09a81;
-  --blue: #1085c5;
+h2 {
+  font-size: 60px;
 }
 
+h3 {
+  font-size: 34px;
+}
 
 /*
-Шрифты
-В качестве основного шрифта используется Open Sans
-Для заголовков используется шрифт Neucha
-Размер шрифта: 16px
-Межстрочный интервал: 1.6em
-Цвет шрифта: #2A2626
 
-Заголовки
-Межстрочный интервал заголовков: 1.2em
-Размер заголовка первого уровня: 72px
-Размер заголовка второго уровня: 60px
-Размер заголовка третьего уровня: 34px
 
 Секции
 Ограничение по ширине контента: 1110px
