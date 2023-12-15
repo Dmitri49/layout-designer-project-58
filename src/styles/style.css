@@ -81,7 +81,7 @@ h3 {
 
 /* ======================= HEADER SECTION =========================== */
 
-header {
+.header-bkg {
   background-color: var(--light);
 }
 
@@ -161,6 +161,37 @@ header {
 }
 
 /* ========================= VIDEO SECTION ============================== */
+
+.video-wrapper {
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.video-title {
+  margin-bottom: 30px;
+}
+
+.video {
+  margin-top: 20px;
+  margin-bottom: -100px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+/* ======================== NAVIGATION SECTION =========================== */
+
+.nav-bkg {
+  background-color: var(--dark-main);
+}
+
+.nav-wrapper {
+  padding-top: 200px;
+}
+
+
+
+
+
+
 
 
 
