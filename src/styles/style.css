@@ -31,12 +31,6 @@
 	src: url(../fonts/Neucha/Neucha-Regular.ttf);
 }
 
-/* * {
-	padding: 0;
-	margin: 0;
-	border: 0;
-} */
-
 *,*::before,*::after{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -85,6 +79,8 @@ h3 {
   font-size: 34px;
 }
 
+/* ======================= HEADER SECTION =========================== */
+
 header {
   background-color: var(--light);
 }
@@ -108,7 +104,6 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  /* z-index: -1; */
 
   background: url(../img/background.png);
   background-repeat: no-repeat;
@@ -133,7 +128,6 @@ header {
   right: -105px;
 
   height: 525px;
-  /* z-index: 1; */
 }
 
 .description {
@@ -165,6 +159,8 @@ header {
 
   background-color: var(--color-main);
 }
+
+/* ========================= VIDEO SECTION ============================== */
 
 
 
