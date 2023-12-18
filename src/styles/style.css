@@ -39,6 +39,11 @@
 
 a, a:visited{text-decoration: none;}
 
+a {
+  display: block;
+  color: var(--dark);
+}
+
 a:hover{text-decoration: none;}
 
 ul li{list-style: none;}
@@ -81,7 +86,7 @@ h3 {
 
 /* ======================= HEADER SECTION =========================== */
 
-.header-bkg {
+.header-section {
   background-color: var(--light);
 }
 
@@ -179,15 +184,63 @@ h3 {
 
 /* ======================== NAVIGATION SECTION =========================== */
 
-.nav-bkg {
+.navigation-section {
   background-color: var(--dark-main);
 }
 
-.nav-wrapper {
+.navigation-wrapper {
   padding-top: 200px;
 }
 
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.menu > * {
+  width: 350px;
+}
+
+.navigation-title {
+  font-size: 52px;
+}
+
+.title-white {
+  color: var(--white);
+}
+
+.menu-item {
+  padding: 24px;
+  /* margin-bottom: 20px; */
+
+  background-color: var(--light);
+}
+
+.menu-item:nth-child(n + 4) {
+  margin-top: 20px;
+}
+
+.menu-item-number {
+  margin-bottom: 40px;
+
+  font-size: 64px;
+  font-family: 'Neucha';
+  line-height: 1em;
+}
+
+.menu-item-title {
+  color: var(--color-main);
+}
+
+.menu-item:hover {
+  background-color: var(--color-main);
+  color: var(--white);
+}
+
+.menu-item:hover h3 {
+  color: var(--white);
+}
 
 
 
