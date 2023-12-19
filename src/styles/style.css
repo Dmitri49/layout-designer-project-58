@@ -41,6 +41,7 @@ a, a:visited{text-decoration: none;}
 
 a {
   display: block;
+  box-sizing: border-box;
   color: var(--dark);
 }
 
@@ -214,6 +215,10 @@ h3 {
   padding: 24px;
 
   background-color: var(--light);
+}
+
+.menu-item p {
+  margin-bottom: 0;
 }
 
 .menu-item:nth-child(n + 4) {
