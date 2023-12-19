@@ -241,12 +241,31 @@ h3 {
   color: var(--white);
 }
 
-
 /* ================== SECTIONS ======================= */
-/* SECTION 1 */
 
-.ikea-effect-section {
+/* ======== FIRST SECTION ========= */
+
+.light-bkg-section {
   background-color: var(--light);
+}
+
+.section-wrapper {
+  position: relative;
+}
+
+.section-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.1;
 }
 
 .section-info {
@@ -309,14 +328,30 @@ h3 {
   color: #fff;
 }
 
+.section-description {
+  columns: 2;
+  column-gap: 30px;
+}
 
-/* SECTION 2 */
+.section-description p:first-child {
+  margin-top: 0;
 
-.premature-optimization-section {
+}
+
+.section-description p:last-child {
+  margin-bottom: 0;
+  break-inside: avoid;
+}
+
+
+/* ========= SECOND SECTION ========== */
+
+
+.brown-bkg-section {
   background-color: var(--brown);
 }
 
-.premature-optimization-wrapper * {
+.brown-bkg-section * {
   color: #fff;
 }
 
