@@ -371,12 +371,112 @@ h3 {
   color: var(--brown);
 }
 
+/* ========================= FOOTER =========================== */
 
+.send-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 190px;
+  padding-left: 55px;
+  padding-right: 55px;
 
+  background-color: var(--dark-main);
+}
 
+.footer-title {
+  color: #fff;
+}
 
+.info {
+  display: block;
+  margin-bottom: 9px;
 
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6em;
+  color: #fff;
+}
 
+.send-form {
+  display: flex;
+}
+
+input::placeholder {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.6;
+
+  opacity: 0.2;
+}
+
+.input-feld {
+  width: 415px;
+  height: 50px;
+  padding: 15px;
+
+  border: 0;
+  border-radius: 0;
+}
+
+.send-btn {
+  position: relative;
+  width: 70px;
+  height: 50px;
+  padding: 0;
+  border: 0;
+
+  background-color: var(--color-main);
+}
+
+.send-btn::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: calc(50% - (24px / 2));
+  left: calc(50% - (24px / 2));
+
+  background-image: url(../img/send.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info-desc {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.info-desc a {
+  display: inline;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.contact-info {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.contact-info > p {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.contact-info a {
+  display: inline;
+
+  text-decoration: underline;
+
+  color: #1085C5;
+}
 
 
 /*
