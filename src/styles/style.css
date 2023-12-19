@@ -243,6 +243,7 @@ h3 {
 
 
 /* ================== SECTIONS ======================= */
+/* SECTION 1 */
 
 .ikea-effect-section {
   background-color: var(--light);
@@ -253,9 +254,12 @@ h3 {
 }
 
 .section-image {
-  margin-right: 30px;
   flex: 1 1 auto;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.mr {
+  margin-right: 30px;
 }
 
 .text {
@@ -287,25 +291,56 @@ h3 {
   margin-bottom: 20px;
   padding-left: 10px;
   align-items: center;
+}
 
+.brown-wrapper {
   background-color: var(--brown);
 }
 
 .description-title {
-
-
   font-family: 'Open Sans';
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2em;
   text-transform: uppercase;
-
-
 }
 
 .desk-white {
   color: #fff;
 }
+
+
+/* SECTION 2 */
+
+.premature-optimization-section {
+  background-color: var(--brown);
+}
+
+.premature-optimization-wrapper * {
+  color: #fff;
+}
+
+.text-white {
+  color: var(--transparent-white);
+}
+
+.ml {
+  margin-left: 30px;
+}
+
+.white-wrapper {
+  background-color: #fff;
+}
+
+.desk-black {
+  color: var(--brown);
+}
+
+
+
+
+
+
 
 
 
