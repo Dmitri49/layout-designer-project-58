@@ -1,2 +1,2 @@
-# My first project Hexlet
+# My first project at Hexlet
 ## "Cognitive distortions"
